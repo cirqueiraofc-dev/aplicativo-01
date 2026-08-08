@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "aplicativo-01",
+    "slug": "aplicativo-01",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cirqueiraofc.aplicativo01"
+    },
+    "android": {
+      "package": "com.cirqueiraofc.aplicativo01",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "SUBSTITUA_APOS_RODAR_EAS_INIT"
+      }
+    }
+  }
+}
