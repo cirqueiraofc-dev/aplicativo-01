@@ -1,19 +1,20 @@
 {
   "expo": {
-    "name": "TDAH",
+    "name": "Craque Manager",
     "slug": "aplicativo-01",
+    "scheme": "craquemanager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.cirqueiraofc.tdah"
+      "bundleIdentifier": "com.cirqueiraofc.craquemanager"
     },
     "android": {
-      "package": "com.cirqueiraofc.tdah",
+      "package": "com.cirqueiraofc.craquemanager",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0B1F17",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -23,7 +24,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [],
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
     "extra": {
       "eas": {
         "projectId": "58ea6a3f-99ff-43dc-bc5c-65063e5732bc"
