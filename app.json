@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "aplicativo-01",
+    "name": "TDAH",
     "slug": "aplicativo-01",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,10 +8,10 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.cirqueiraofc.aplicativo01"
+      "bundleIdentifier": "com.cirqueiraofc.tdah"
     },
     "android": {
-      "package": "com.cirqueiraofc.aplicativo01",
+      "package": "com.cirqueiraofc.tdah",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
